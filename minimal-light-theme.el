@@ -115,7 +115,7 @@
       ;; hl-line-mode
      `(hl-line ((,class (:background ,hl-background))))
      `(hl-line-face ((,class (:background ,hl-face-background))))
-     
+
       ;; highlight-stages-mode
      `(highlight-stages-negative-level-face ((,class (:foreground ,failure))))
      `(highlight-stages-level-1-face ((,class (:background ,org-background))))
@@ -151,15 +151,15 @@
      `(org-todo ((,class (:background ,region :foreground ,foreground :weight bold))))
      `(org-done ((,class (:background ,region :foreground ,foreground :weight bold))))
 
-     `(org-table ((,class (:background ,org-background))))
-     `(org-code ((,class (:background ,org-background))))
-     `(org-date ((,class (:background ,org-background :underline t))))
-     `(org-block ((,class (:background ,org-background))))
-     `(org-block-background ((,class (:background ,org-background :foreground ,foreground))))
-     `(org-block-begin-line
-       ((,class (:background ,org-background :foreground ,comment-delimiter :weight bold))))
-     `(org-block-end-line
-       ((,class (:background ,org-background :foreground ,comment-delimiter :weight bold))))
+     ;; `(org-table ((,class (:background ,org-background))))
+     ;; `(org-code ((,class (:background ,org-background))))
+     ;; `(org-date ((,class (:background ,org-background :underline t))))
+     ;; `(org-block ((,class (:background ,org-background))))
+     ;; `(org-block-background ((,class (:background ,org-background :foreground ,foreground))))
+     ;; `(org-block-begin-line
+     ;;   ((,class (:background ,org-background :foreground ,comment-delimiter :weight bold))))
+     ;; `(org-block-end-line
+     ;;   ((,class (:background ,org-background :foreground ,comment-delimiter :weight bold))))
 
      ;; js2-mode
      `(js2-external-variable ((,class (:inherit base-faces :weight bold))))
