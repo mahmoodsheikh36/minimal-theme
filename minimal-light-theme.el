@@ -29,7 +29,7 @@
 (deftheme minimal-light "minimal light theme.")
 
 (let* ((class '((class color) (min-colors 89)))
-       (foreground "grey20")
+       (foreground "grey2")
        (background "white")
        (cursor "black")
        (border "grey90")
