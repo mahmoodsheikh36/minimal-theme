@@ -43,7 +43,7 @@
        (modeline-background "grey95")
        (modeline-foreground-inactive comment)
        (modeline-background-inactive background)
-       (hl-background "PeachPuff3")
+       (hl-background "beige")
        (hl-face-background nil)
        (failure "red")
        (org-background "grey98")
